@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+            <h1>5. Formulario de inicio de sesión con accesibilidad</h1>
+        <p>
+            Diseña un formulario que tenga:
+            <ol>
+                <li>label correctamente asociados a input (usuario y contraseña).</li>
+                <li>Campo de contraseña (input type="password").</li>
+                <li>Botones submit y reset.</li>
+            </ol>
+        </p>
+        <fieldset>
+        <legend>Ingresa tu usuario, y contraseña para iniciar sesion.</legend>
+        <form>
+            <label for="User">Nombre de usuario:
+                <input type="text" required>                
+            </label>
+            <br>            
+            <label for="Password">Contraseña:
+                <input type="password" required>
+            </label>
+            <br>
+            <br>
+            <button type="submit">Iniciar sesión</button>
+            <br>
+            <br>            
+            <label>
+                <input type="reset" value="Reiniciar">
+            </label>
+        </form>
+        </fieldset>
+</body>
+</html>
